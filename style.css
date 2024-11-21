@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+ody {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1%;
+}
+
+
+.top-page {
+  height: 33vh; 
+  display: flex; 
+  flex-direction: column;
+}
+
+section{
+  background-color: #ffffff;
+  border: 2px black solid;
+  padding: 5px;
+  margin: 10px;
+}
+
+h1 {
+ text-align: center;
+}
+h2 {
+  text-align: center;
+ }
+
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.nav-links li {
+  float: left;
+}
+
+.nav-links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-links li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.nav-links a.active {
+  background-color: #04AA6D;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-competences-container {
+  display: grid;
+  grid-template-columns:min-content auto;
+  align-items: center;
+}
+
+.logos {
+  width: 50px;
+  height: 50px;
+}
+
+.bar-container {
+  width: 100%;
+  height: min-content;
+  background-color: #ddd;
+  border: #333 2px solid;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.grid-interest-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-interest-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.liste-parcours > li {
+  text-align: start;
+}
