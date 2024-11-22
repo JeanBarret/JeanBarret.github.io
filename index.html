@@ -7,44 +7,30 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 
-<body style="border: black solid 1px;">    
+<body style=" background-color: aquamarine; ">    
 
     <div class="top-page">
+   
+        <h1 > Nathanaël, étudiant en informatique</h1>
         
+        <h1 style=" color:  #04AA6D; "> Bienvenue sur mon portfolio (Version ordinateur en construction... &#128517;) </h1>
         
-        
-        <div style="
-        border: black solid; 
-        flex-grow: 1;  
-        align-content:normal;
-        margin: 15px;">
-        
-            <h1 style="text-align: center;"> Jean, étudiant en infromatique</h1>
-        
-            <p style="text-align: center; vertical-align: bottom;"> bienvenu sur mon porftfolio (il est encore en construction... &#128517;)</p>
-        
-        </div>
-        
-
-
-
     
     </div>
 
 
     <header style="
     border: 3px solid black; 
-    width: 100%; 
-    align-self: center;" >
+    margin: 10px;" >
     
         <!-- logo(aucun là) et navigation -->
                 
         <nav id="navbar">
             
             <ul class="nav-links">
-                <li> <a class="active" href="#home">Jean BARRET</a></li>
-                <li> <a href="#about">About</a></li>
-                <li> <a href="#projects">Projects</a></li>
+                <li> <a class="active" href="#home">Nathanaël BARRET</a></li>
+                <li> <a href="#À propos de moi">À propos de moi</a></li>
+                <li> <a href="#Projets">Projets</a></li>
                 <li> <a href="#contact">Contact</a></li>
             </ul>
             
@@ -61,23 +47,26 @@
     <section id="home" >
         <!-- introduction -->
         <h1 >Introduction</h1>
-        <p> Je suis actuellement en 2ème années de BTS SIO au CNED.</p>
+        <p>Je suis actuellement en 2ème année de BTS SIO (option SLAM) au CNED. </p>
+        <p>J’ai fait ce portfolio dans le but de développer mes compétences en informatique au travers d’un projet concret qui me permet de tester mes connaissances en tant que développeur.</p>
+        <p>J’ai pour l’instant utiliser HTML et CSS, VS code comme IDE, Git et github pour la gestion de version.</p>
+        
+        
+        
     </section>
     
 
 
-    <section id="about"  >
-        <!-- à propos de moi -->
-        <div  >
+    <section id="À propos de moi"  >
+        
         <h1> À propos de moi </h1>
 
-
         <!-- espace pour : mes compétences (langages connues mais aussi à rajouter logiciels et outils), intérêts et mon parcours -->
-        </div>  
+        
 
-        <div class="row" >
+        <div class="Grid-a-propos" >
 
-            <div style="flex-grow: 1;">
+            <div style="flex: 1 1 50%;">
                 
                 <h2>Compétences</h2>
 
@@ -145,9 +134,9 @@
             
             </div>
 
-            <div style="flex-grow: 1;" >
+            <div style="flex: 1 1 50%;" >
                 
-                <h2> intérêts </h2>
+                <h2> Intérêts </h2>
                 <div class="grid-interest-container">
                     
                     <div>
@@ -176,8 +165,8 @@
                 
                 <ol class="liste-parcours">
                     <li> 2017-2020 Baccalauréat Scientifique </li>
-                    <li> 2020-2022 Licence infromatique L1 -L2 ( L3 non commencée) </li>
-                    <li> 2023-2024 BTS Services Informatiques aux Organisations option SLAM </li>
+                    <li> 2020-2022 Licence informatique L1 -L2 </li>
+                    <li> 2023-2024 BTS Services Informatiques aux Organisations option SLAM (Solutions logiciels et applications métiers) </li>
                 </ol>
 
             </div>
@@ -191,15 +180,15 @@
   
     
 
-    <section id="projects" >
+    <section id="Projets" >
         <!-- ici ça sera les projets que j'ai fait -->
-        <h2 style="text-align: center;">Projects</h2>
+        <h2 style="text-align: center;">Projets</h2>
         
         <div>
-            <h3>Projet 1</h3>
-            <p>Description du project.</p>
-            <a href="#">View Live</a>
-            <a href="#">Source Code</a>
+            <h3>Portfolio</h3>
+            <p>Mon portfolio hébergé sur github.</p>
+            <a href="https://jeanbarret.github.io">Voir le projet</a>
+            <a href="https://github.com/JeanBarret/JeanBarret.github.io/blob/main/index.html">Code Source</a>
         </div>
         
         <!-- refaire pareil pour chaque projet -->
@@ -216,17 +205,17 @@
         
         <section id="contact">
             <!-- me contacter ne marche pas pour l'instant -->
-            <h2 style="text-align: center;">Me contacter (ne marche pas là)</h2>
-            <form action="#" style="text-align: center; margin-top: 25px;">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">envoyé</button>
-            </form>
+            <h2 style="text-align: center;"> Vous pouvez me trouver sur:</h2>
+
+            <div>
+                <img src="./images/github-mark.svg" alt="github invertocat logo" class="logos" >
+                <p> <a href="https://github.com/JeanBarret" > Github</a> </p> 
+            </div>
+            
         </section>
         
         <!-- copyright j'ai fait comme j'ai vu ailleurs mais pas sûr de si j'ai fait une bétise ..?  -->
-        <p style="text-align: center;"> &copy; 2024 JeanBARRET.</p>
+        <p style="text-align: center;"> &copy; 2024 JeanBarret</p>
     </footer>
     
 
